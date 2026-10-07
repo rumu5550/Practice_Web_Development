@@ -56,8 +56,79 @@
 <br>
 <input type="number" Placeholder="Age" required>
 </fieldset>
-
+<br>
+<fieldset>
+    <legend>Gender</legend>
+    <input type="radio" name="gender" value="male" required> Male
+    <input type="radio" name="gender" value="female" required> Female
+    <input type="radio" name="gender" value="other" required> Other
+</fieldset>
+<br>
+<fieldset>
+        <legend>Country</legend>
+        <select name="country" required>
+            <option value="Bangladesh">Bangladesh</option>
+            <option value="India">India</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="Nepal">Nepal</option>
+            <option value="Sri Lanka">Sri Lanka</option>
+        </select>
+</fieldset>
+<br>
+<fieldset>
+    <legend>T-Shirt Size</legend>
+    <strong>Choose your T-Shirt Size:</strong>
+    <br><br>
+    <input type="radio" name="t-shirt_size" value="S" required> Small (S)
+    <input type="radio" name="t-shirt_size" value="M" required> Medium (M)
+    <input type="radio" name="t-shirt_size" value="L" required> Large (L)
+    <input type="radio" name="t-shirt_size" value="XL" required> Extra Large (XL)
+    <input type="radio" name="t-shirt_size" value="XXL" required> Double Extra Large (XXL)
+</fieldset>
+<br>
+<fieldset>
+<legend>Technical Skills</legend>
+<strong>Which of the following technical skills do you possess? (Select all that apply)</strong>
+<br><br>
+    <input type="checkbox" name="skills" value="HTML"> HTML<br>
+    <input type="checkbox" name="skills" value="CSS"> CSS<br>
+    <input type="checkbox" name="skills" value="javascript"> javascript<br>
+    <input type="checkbox" name="skills" value="C++"> C++<br>
+    <input type="checkbox" name="skills" value="React"> React<br>
+    <input type="checkbox" name="skills" value="Python"> Python<br>
+    <input type="checkbox" name="skills" value="Next.JS"> Next.JS
+</fieldset>
+<br>
+<fieldset>
+    <legend>Dietary Preferences</legend>
+    <strong>Do you have any dietary preferences or restrictions?(Select all that apply)</strong>
+    <br><br>
+    <input type="checkbox" name="dietary_preferences" value="vegetarian"> Vegetarian<br>
+    <input type="checkbox" name="dietary_preferences" value="vegan"> Vegan<br>
+    <input type="checkbox" name="dietary_preferences" value="gluten_free"> Gluten-Free<br>
+    <input type="checkbox" name="dietary_preferences" value="dairy_free"> Dairy-Free<br>
+    <input type="checkbox" name="dietary_preferences" value="halal"> Halal<br>
+    <input type="checkbox" name="dietary_preferences" value="No special preferences"> No special preferences<br>
+</fieldset>
+<br>
+<fieldset>
+    <legend>Experience Level</legend>
+    <select name="experience_level" required>
+        <option value="beginner">Beginner</option>
+        <option value="intermediate">Intermediate</option>
+        <option value="advanced">Advanced</option>
+    </select>
+</fieldset>
+<br>
+<fieldset>
+    <legend>Why are you interested in this event?/Why do you want to Join?</legend>
+    <textarea rows="4" cols="50" placeholder="Your message here..."></textarea>
+</fieldset>
+<br><br>
+<input type="checkbox" name="terms" value="accepted" required> I accept the terms and conditions
+<br><br>
+<input type="submit" value="Register Now">
 </form>
-    </fieldset>
+</fieldset>
 </body>
 </html>
