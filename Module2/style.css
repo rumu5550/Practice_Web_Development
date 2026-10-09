@@ -1,0 +1,15 @@
+.roll{
+     color: aquamarine;
+     font-weight: 700;
+     font-style: italic;
+}
+
+#mean {
+     color: red;
+     font-weight: 700;
+     font-style: italic;
+}
+
+*{
+    background-color: gray;
+}
